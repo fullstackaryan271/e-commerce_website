@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+<!-- fontawesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+    crossorigin="anonymous" />
+    <title>internship project</title>
+  </head>
+  <body id="top">
+    <section class="header_menu" id="header_menu">
+      <div class="container-fluid px-0 shadow">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <a class="navbar-brand pl-5 pl-small-0" href="index1.html">
+ <img src="images/imageedit_1_9841774679.png" class="img img-fluid" width="60px" alt="logo">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index1.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="product.html">Product</a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link" href="category.html">Category</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="About us.html">About us</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="Contact us.html">Contact us</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</div>
+</section>
+<!-- ==============cart starts here============== -->
+<section class="cart py-5 my-5" id="cart">
+<div class="container ">
+<div class="section_title text-center mb-5">
+<h1 class="text-capitalize">Cart</h1>
+</div>
+<div class="row bg_cart_1 rounded">
+<!--Grid column-->
+<div class="col-md-8 border-right">
+<!-- Card -->
+<div class="mb-3">
+<div class="pt-4">
+<h5 class="mb-4">Cart (<span>2</span> items)</h5>
+<div class="row mb-4">
+<div class="col-md-5 col-lg-3 col-xl-3">
+<div class="rounded mb-3 mb-md-0">
+<img class="img-fluid w-100 rounded"
+src="data:image/jpeg;base64,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"
+alt="Sample">
+</div>
+</div>
+<div class="col-md-7 col-lg-9 col-xl-9">
+<div>
+<div class="d-flex justify-content-between">
+<div>
+<h5>Blue denim shirt</h5>
+<p class="mb-3 text-muted text-uppercase small">Shirt -
+blue</p>
+<p class="mb-2 text-muted text-uppercase small">Color:
+blue</p>
+<p class="mb-3 text-muted text-uppercase small">Size:
+M</p>
+</div>
+<div>
+<div class="mb-0 w-100">
+<button
+onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+class="btn btn-sm btn-outline-primary">
+<i class="fas fa-minus"></i>
+</button>
+<input class="quantity text-center" min="0" max="10"
+name="quantity"
+value="1" type="number">
+<button
+onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+class="btn btn-sm btn-outline-primary">
+<i class="fas fa-plus"></i>
+</button>
+</div>
+<small class="form-text text-muted text-center">
+(Note, 1 piece)
+</small>
+</div>
+</div>
+<div class="d-flex justify-content-between align-items-center">
+<div>
+<a href="javascript:;" type="button"
+class="small text-uppercase mr-3"><i
+class="fas fa-trash-alt mr-1"></i> Remove item </a>
+</div>
+<p class="mb-0"><span><strong
+id="summary">₹17.99</strong></span></p
+class="mb-0">
+</div>
+</div>
+</div>
+</div>
+<hr class="mb-4">
+<div class="row mb-4">
+<div class="col-md-5 col-lg-3 col-xl-3">
+<div class="rounded mb-3 mb-md-0">
+<img class="img-fluid w-100 rounded"
+src="https://contents.mediadecathlon.com/p1484240/ab565f3675dbdd7e3c486175e2c16583/p1484240.jpg"
+alt="Sample">
+</div>
+</div>
+<div class="col-md-7 col-lg-9 col-xl-9">
+<div>
+<div class="d-flex justify-content-between">
+<div>
+<h5>Red hoodie</h5>
+<p class="mb-3 text-muted text-uppercase small">Shirt -
+red</p>
+<p class="mb-2 text-muted text-uppercase small">Color:
+red</p>
+<p class="mb-3 text-muted text-uppercase small">Size:
+M</p>
+</div>
+<div>
+<div class="mb-0 w-100">
+<button
+onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+class="btn btn-sm btn-outline-primary">
+<i class="fas fa-minus"></i>
+</button>
+<input class="quantity text-center" min="0" max="10"
+name="quantity"
+value="1" type="number">
+<button
+onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+class="btn btn-sm btn-outline-primary">
+<i class="fas fa-plus"></i>
+</button>
+</div>
+</div>
+</div>
+<div class="d-flex justify-content-between align-items-center">
+<div>
+<a href="javascript:;" type="button"
+class="card-link-secondary small text-uppercase mr-3">
+<i class="fas fa-trash-alt mr-1"></i> Remove item
+</a>
+</div>
+<p class="mb-0"><span><strong>₹35.99</strong></span></p
+class="mb-0">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--Grid column-->
+<!--Grid column-->
+<div class="col-md-4 rounded">
+<!-- Card -->
+<div class="mb-3">
+<div class="pt-4">
+<h5 class="mb-3">Order summary</h5>
+<ul class="list-group list-group-flush">
+<li
+class="list-group-item d-flex justify-content-between
+align-items-center border-0 px-0 pb-2">
+<span>Product name 1</span>
+<span>x2</span>
+<span>₹25.98</span>
+</li>
+<li
+class="list-group-item d-flex justify-content-between
+align-items-center border-0 px-0 pb-2">
+<span>Product name 2</span>
+<span>x2</span>
+<span>₹25.98</span>
+</li>
+<li
+class="list-group-item d-flex justify-content-between
+align-items-center border-top px-0 mb-3">
+<div>
+<strong>Total amount</strong>
+<strong>
+<p class="mb-0">(including VAT)</p>
+</strong>
+</div>
+<span><strong>₹53.98</strong></span>
+</li>
+</ul>
+<a href="checkout.html" class="btn btn-primary btn-block">Go to
+Checkout</a>
+</div>
+</div>
+<!-- Card -->
+</div>
+<!--Grid column-->
+</div>
+</div>
+</section>
+<!-- ==============footer starts here============== -->
+<section class="footer_section pt-5 pb-2" id="footer_section">
+<footer>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-3 col-6 pl-5 pl-small-15">
+<div class="footer_title">
+<a href="index.html"><img src="images/imageedit_1_9841774679.png" width="150px"
+class="img img-fluid" alt="logo"></a>
+</div>
+<div>
+Goac movers is an online e-commerce platform where you can buy goods of all catogories and can also sell it here as a seller.
+</div>
+</div>
+<div class="col-md-3 col-6">
+<div class="footer_title pt-3 mb-3">
+<h3>Quick Links</h3>
+</div>
+<div class="footer_links">
+<ul>
+<li><a href="about.html">About</a></li>
+<li><a href="javascript:;">Offers & Discounts</a></li>
+<li><a href="javascript:;">Get Coupon</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</div>
+</div>
+<div class="col-md-3 col-6">
+<div class="footer_title pt-3 mb-3">
+<h3>New Products</h3>
+</div>
+<div class="footer_links">
+<ul>
+<li><a href="javascript:;">Grocery</a></li>
+<li><a href="javascript:;">Fashion Accessories</a></li>
+<li><a href="javascript:;">stationary objects</a></li>
+<li><a href="javascript:;">electronics</a></li>
+</ul>
+</div>
+</div>
+<div class="col-md-3 col-6">
+<div class="footer_title pt-3 mb-3">
+<h3>Support</h3>
+</div>
+<div class="footer_links">
+<ul>
+<li><a href="javascript:;">Frequently Asked Questions</a></li>
+<li><a href="javascript:;">Terms & Conditions</a></li>
+<li><a href="javascript:;">Privacy Policy</a></li>
+<li><a href="javascript:;">Report a Payment Issue</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="border-top">
+<h6 class="text-center mt-3">Copyright ©2020 All rights reserved
+</h6>
+</div>
+</footer>
+</section>
+<div class="backtop">
+<a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button">
+<i class="fas fa-chevron-up text-dark"></i>
+</a>
+</div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
